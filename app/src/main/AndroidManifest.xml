@@ -35,7 +35,7 @@
         <activity android:name="com.allegrogroup.demo.material.OutlinesActivity"
             android:label="Outlines"/>
 
-        <activity android:name="com.allegrogroup.demo.material.kuba.AnimatingStateChangesActivity"
+        <activity android:name="com.allegrogroup.demo.material.AnimatingStateChangesActivity"
             android:label="Animating State Changes" />
 
         <activity android:name="com.allegrogroup.demo.material.TouchFeedback"
