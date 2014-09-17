@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
-import android.transition.Explode;
 import android.util.Pair;
 import android.view.View;
 
@@ -26,7 +25,6 @@ public class TransitionsSmallGalleryActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getWindow().setEnterTransition(new Explode());
         getWindow().setAllowExitTransitionOverlap(true);
 
         setContentView(R.layout.activity_transitions_a);

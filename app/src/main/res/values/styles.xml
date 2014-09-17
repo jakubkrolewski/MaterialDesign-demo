@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="BoysTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <style name="ColorfulTheme" parent="android:Theme.Holo.Light">
         <!-- Customize your theme here. -->
     </style>
 

@@ -11,7 +11,6 @@ public class TransitionsBigGalleryActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         getWindow().setEnterTransition(new Explode());
-//        getWindow().setExitTransition(new Explode());
         getWindow().setAllowEnterTransitionOverlap(true);
 
         setContentView(R.layout.activity_transitions_b);

@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/BoysTheme">
+        android:theme="@style/ColorfulTheme">
         <activity
             android:name="com.allegrogroup.demo.material.DemoListActivity"
             android:label="Material Demos List">
