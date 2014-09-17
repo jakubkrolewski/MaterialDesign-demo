@@ -13,7 +13,7 @@
         <!--   theme UI controls like checkboxes and text fields -->
         <item name="android:colorAccent">@color/accent</item>
 
-        <item name="android:statusBarColor">@color/pink</item>
+        <item name="android:statusBarColor">@color/deep_orange_800</item>
         <item name="android:navigationBarColor">@color/truck_blue</item>
 
         <item name="android:textColorPrimary">#ff000000</item>
