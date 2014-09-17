@@ -18,7 +18,7 @@ import butterknife.InjectView;
 
 public class ExampleAdapter extends BaseRecyclerViewAdapter<String, ExampleAdapter.ViewHolder> {
 	private final LayoutInflater layoutInflater;
-	private RecyclerViewClickListener<ViewHolder> listener;
+	private RecyclerViewItemClickListener<ViewHolder> listener;
     private int layoutResourceId;
 
 	public ExampleAdapter(Context context, String[] dataset, boolean useCardLayout) {
@@ -41,7 +41,7 @@ public class ExampleAdapter extends BaseRecyclerViewAdapter<String, ExampleAdapt
 		viewHolder.text.setText(getItem(position));
 	}
 
-	public void setListener(RecyclerViewClickListener<ViewHolder> listener) {
+	public void setListener(RecyclerViewItemClickListener<ViewHolder> listener) {
 		this.listener = listener;
 	}
 

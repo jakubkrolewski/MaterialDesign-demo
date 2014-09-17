@@ -47,7 +47,7 @@ public class DemoListActivity extends Activity {
 
     @OnClick(R.id.demo_card_view)
     protected void onDemoCardViewButtonClick() {
-        startActivity(RecyclerViewActivity.createIntent(this, false, true));
+        startActivity(RecyclerViewActivity.createIntent(this, true, true));
     }
 
     private void startActivity(Class<? extends Activity> activityClass) {

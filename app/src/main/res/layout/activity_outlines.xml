@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:elevation="5dp"
         android:background="@drawable/action_button_background"
-        android:src="@drawable/ic_launcher"
-        android:layout_marginBottom="20dp"/>
+        android:src="@android:drawable/ic_media_play"
+        android:layout_marginBottom="40dp"/>
 
     <ImageButton
         android:id="@+id/standard_button"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:elevation="5dp"
-        android:src="@drawable/ic_launcher"/>
+        android:src="@android:drawable/ic_media_pause"/>
 
 </LinearLayout>

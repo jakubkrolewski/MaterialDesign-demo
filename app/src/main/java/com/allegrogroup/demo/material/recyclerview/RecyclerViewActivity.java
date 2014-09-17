@@ -19,7 +19,7 @@ import butterknife.OnCheckedChanged;
 import butterknife.OnClick;
 import me.tatarka.recyclerviewtest.itemanimator.SlideInFromLeftItemAnimator;
 
-public class RecyclerViewActivity extends Activity implements RecyclerViewClickListener<ExampleAdapter.ViewHolder> {
+public class RecyclerViewActivity extends Activity implements RecyclerViewItemClickListener<ExampleAdapter.ViewHolder> {
     private static final String LOREM_IPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem " +
             "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of " +
             "type and scrambled it to make a type specimen book. It has survived not only five centuries, " +
