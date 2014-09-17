@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/demo_hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello Material Design"/>
+
+        <Button
+            android:id="@+id/demo_theme_customization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theme customization"/>
+
+        <Button
+            android:id="@+id/demo_two_themes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two themes"/>
+
+        <Button
+            android:id="@+id/demo_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler View"/>
+
+        <Button
+            android:id="@+id/demo_custom_layout_manager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Layout Manager"/>
+
+        <Button
+            android:id="@+id/demo_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card View"/>
+
+        <Button
+            android:id="@+id/demo_outlines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outlines"/>
+
+        <Button
+            android:id="@+id/demo_touch_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Touch Feedback"/>
+
+        <Button
+            android:id="@+id/demo_animating_state_changes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Animating State Changes"/>
+
+        <Button
+            android:id="@+id/demo_reveal_effect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reveal Effect"/>
+
+        <Button
+            android:id="@+id/demo_transitions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transitions"/>
+    </LinearLayout>
+</ScrollView>

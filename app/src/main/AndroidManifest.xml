@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allegrogroup.demo.material">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/BoysTheme">
+        <activity
+            android:name="com.allegrogroup.demo.material.DemoListActivity"
+            android:label="Material Demos List">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.allegrogroup.demo.material.HelloMaterialDesignActivity"
+            android:label="Hello Material Design"
+            android:theme="@style/SimpleTheme" />
+        <activity
+            android:name="com.allegrogroup.demo.material.ThemeCustomizationActivity"
+            android:label="Theme customization"
+            android:theme="@style/ColorfulTheme" />
+
+        <activity android:name="com.allegrogroup.demo.material.TwoThemesActivity"
+                  android:label="Two themes"
+                  android:theme="@android:style/android:Theme.Material"/>
+
+        <activity android:name="com.allegrogroup.demo.material.recyclerview.RecyclerViewActivity"
+                  android:label="RecyclerView"/>
+
+        <activity android:name="com.allegrogroup.demo.material.OutlinesActivity"
+            android:label="Outlines"/>
+
+        <activity android:name="com.allegrogroup.demo.material.kuba.AnimatingStateChangesActivity"
+            android:label="Animating State Changes" />
+
+        <activity android:name="com.allegrogroup.demo.material.TouchFeedback"
+            android:label="Touch feedback"/>
+
+        <activity android:name="com.allegrogroup.demo.material.RevealEffectActivity"
+                  android:label="Reveal Effect"/>
+
+        <activity android:name="com.allegrogroup.demo.material.transitions.TransitionsSmallGalleryActivity"
+            android:theme="@style/TransitionsTheme"
+            android:label="Small Gallery" />
+
+        <activity android:name="com.allegrogroup.demo.material.transitions.TransitionsBigGalleryActivity"
+            android:theme="@style/TransitionsTheme"
+            android:label="Big Gallery" />
+    </application>
+
+</manifest>
