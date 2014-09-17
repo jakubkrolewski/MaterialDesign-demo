@@ -41,7 +41,7 @@ public class OutlinesActivity extends Activity {
 	}
 
 	private void makeJump(final View view) {
-		final int jumpHeight = 50;
+		final int jumpHeight = getResources().getDimensionPixelOffset(R.dimen.jump_height);
 		final int jumpDuration = 400;
 
 		view.animate()
