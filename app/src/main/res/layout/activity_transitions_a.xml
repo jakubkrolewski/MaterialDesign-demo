@@ -36,7 +36,7 @@
             android:id="@+id/imageSmall2"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/cat_hat"
+            android:src="@drawable/cat_hat2"
             android:viewName="image2"/>
 
     </LinearLayout>
