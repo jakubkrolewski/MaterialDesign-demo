@@ -4,29 +4,31 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.List;
 
-public abstract class BaseRecyclerViewAdapter<T, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
-	private List<T> items;
+public abstract class BaseRecyclerViewAdapter<T, VH extends RecyclerView.ViewHolder>
+        extends RecyclerView.Adapter<VH> {
 
-	protected BaseRecyclerViewAdapter(List<T> items) {
-		this.items = items;
-	}
+    private List<T> items;
 
-	@Override
-	public int getItemCount() {
-		return items.size();
-	}
+    protected BaseRecyclerViewAdapter(List<T> items) {
+        this.items = items;
+    }
 
-	public T getItem(int position) {
-		return items.get(position);
-	}
+    @Override
+    public int getItemCount() {
+        return items.size();
+    }
 
-	public void add(T item, int position) {
-		items.add(position, item);
-		notifyItemInserted(position);
-	}
+    public T getItem(int position) {
+        return items.get(position);
+    }
 
-	public void remove(int position) {
-		items.remove(position);
-		notifyItemRemoved(position);
-	}
+    public void add(T item, int position) {
+        items.add(position, item);
+        notifyItemInserted(position);
+    }
+
+    public void remove(int position) {
+        items.remove(position);
+        notifyItemRemoved(position);
+    }
 }
