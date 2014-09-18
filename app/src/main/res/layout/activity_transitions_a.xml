@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
 
     <Button
         android:id="@+id/bigGallery"
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginBottom="30dp"
-        android:text="Big Gallery" />
+        android:text="Big Gallery"/>
 
     <LinearLayout
         android:id="@+id/imagesPanel"
@@ -28,7 +29,7 @@
             android:id="@+id/imageSmall1"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/cat_hat"
+            tools:src="@drawable/cat_hat"
             android:layout_marginRight="10dp"
             android:viewName="image1"/>
 
@@ -36,7 +37,7 @@
             android:id="@+id/imageSmall2"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/cat_hat2"
+            tools:src="@drawable/cat_hat2"
             android:viewName="image2"/>
 
     </LinearLayout>
